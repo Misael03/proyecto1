@@ -1,0 +1,118 @@
+body {
+    font-size: 20px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Impact ;
+    text-decoration: none;
+}
+
+header {
+    text-decoration: none;
+    width: 100%;
+    height: 100px;
+    background-color: none;
+}
+
+h1 {
+    margin-left: 40%;
+    color: white;
+    font-size: 30px;
+    display: block;
+    font-weight: 100;
+}
+
+.lineas {
+    background-color: chartreuse;
+    display: block;
+    width: 10%;
+    height: 6px;
+    border-radius: 2px;
+    animation-name:lineas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes lineas {
+    0% {margin-left: 10%;}
+    50%{margin-left: 80%;}
+    100%{margin-left: 10%;}
+}
+
+
+
+.menu {
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 60px;
+    display: flexbox;
+    background-color: none;
+    width: 20%;
+    border: 5px solid chartreuse;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+.menu__cajas {
+    color: white;
+    margin-top: 20px;
+    font-family: Impact ;
+    font-size: 20px;
+    text-align: center;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: white;
+}
+
+.enlaces:hover {
+    color: chartreuse;
+}
+
+
+.collage {
+    display: flexbox;
+    margin-top: -887px;
+    margin-left: 29%;
+    width: 70%;
+    height: 500px;
+}
+
+img {
+    height: 100px; 
+}
+
+                     /* aquí comiezo a darle más width de lo normal a algunas imágenes para
+                         que estén acomodadas en línea */
+
+#gumbal {
+    width: 150px;               
+}
+                                
+#kid {
+    width: 160px;
+}                                               
+
+#ben {
+    width: 142px;
+}
+
+#dragon {
+    width:170px
+}
+
+#goku {
+    width: 171px;
+}
+
+#coraje {
+    width: 170px;
+}
+
+#chicas__poderosas {
+    width: 148.5px;
+}
+                            /* aquí acabé de alinear las imágenes usando más width */
