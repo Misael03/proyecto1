@@ -5,13 +5,15 @@
         <meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estiloprincipal.css">
     </head>
-    <body>
+    <body id="body">
         <header>
             <div class="lineas"></div>
             <h1>Caricaturas de tu infancia</h1>
             <div class="lineas"></div>
         </header>
         <nav class="menu">
+		<button onclick="change_backgroundColor()" class="menu__cajas">CAMBIAR FONDO</button>
+		<hr>
             <div class="menu__cajas"><a href="PadrinosMagicos.html" class="enlaces">Los padrinos mágicos</a> </div>
             <div class="menu__cajas"><a href="#" class="enlaces">Un Show más</a></div>
             <div class="menu__cajas"><a href="#" class="enlaces">Hora de aventura</a></div>
@@ -59,5 +61,19 @@
                 
             </div>
         </aside>
+	    <script>
+	    
+	    var body = document.getElementById("body");
+	    function change_backgroundColor(){
+		    if(body.style.backgroundColor == "black"){
+		body.style.backgroundColor = "green"
+		body.style.color = "black"
+	    }
+	    else{
+		body.style.backgroundColor = "black"
+		body.style.color = "green"
+	    }
+            
+	    </script>
     </body>
 </html>
